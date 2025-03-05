@@ -92,27 +92,37 @@ console.log(now - 1991 > now - 2025);*/
 // console.log(ageJonas, ageSarah);
 // console.log(averageAge);
 
-const age = "18";
+// const age = "18";
 
-if (age === 18) console.log("You are now an adult 😊 (Strict)");
+// if (age === 18) console.log("You are now an adult 😊 (Strict)");
 
-if (age == 18) console.log("You are now an adult 😊(loose)");
+// if (age == 18) console.log("You are now an adult 😊(loose)");
 
 //== type coercion
 //=== no type coercion
 //always use strict
 
-let favouriteNumber = Number(prompt("What is your favourite number?"));
+// let favouriteNumber = Number(prompt("What is your favourite number?"));
 
-if (favouriteNumber === 23){
-    console.log("Cool! 23 is an amazing number");
-}else if (favouriteNumber === 7){
-    console.log("7 is also a cool number");
-}else if (favouriteNumber === 9){
-    console.log("9 is also a cool number!")
-}
-else{
-    console.log("Number is not 23 or 7 or 9");
-}
+// if (favouriteNumber === 23){
+//     console.log("Cool! 23 is an amazing number");
+// }else if (favouriteNumber === 7){
+//     console.log("7 is also a cool number");
+// }else if (favouriteNumber === 9){
+//     console.log("9 is also a cool number!")
+// }
+// else{
+//     console.log("Number is not 23 or 7 or 9");
+// }
 
-if (favouriteNumber !== 23) console.log("Why not 23?");
+// if (favouriteNumber !== 23) console.log("Why not 23?");
+
+// let goodVision = false;
+// let driverLicense = true;
+
+// if (driverLicense && goodVision){
+//     console.log("You have a drivers license and good vision, yay! 👌")
+// }
+// else{
+//     console.log("Get off the road 😨")
+// }
