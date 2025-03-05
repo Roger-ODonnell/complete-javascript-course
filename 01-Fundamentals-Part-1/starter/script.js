@@ -126,3 +126,25 @@ console.log(now - 1991 > now - 2025);*/
 // else{
 //     console.log("Get off the road 😨")
 // }
+
+const hasDriverLicense = true; //a
+const hasGoodVision = true; //b
+
+console.log(hasDriverLicense && hasGoodVision);
+console.log(hasDriverLicense || hasGoodVision);
+console.log(!hasDriverLicense);
+
+// if (hasDriverLicense && hasGoodVision){
+//     console.log("Sarah is able to drive");
+// }else {
+//     console.log("Someone else should drive");
+// }
+
+const isTired = false; //c
+
+if (hasDriverLicense && hasGoodVision && !isTired){
+    console.log("Sarah is able to drive");
+}else {
+    console.log("Someone else should drive");
+}
+
