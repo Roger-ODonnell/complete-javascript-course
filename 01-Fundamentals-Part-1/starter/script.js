@@ -101,3 +101,18 @@ if (age == 18) console.log("You are now an adult 😊(loose)");
 //== type coercion
 //=== no type coercion
 //always use strict
+
+let favouriteNumber = Number(prompt("What is your favourite number?"));
+
+if (favouriteNumber === 23){
+    console.log("Cool! 23 is an amazing number");
+}else if (favouriteNumber === 7){
+    console.log("7 is also a cool number");
+}else if (favouriteNumber === 9){
+    console.log("9 is also a cool number!")
+}
+else{
+    console.log("Number is not 23 or 7 or 9");
+}
+
+if (favouriteNumber !== 23) console.log("Why not 23?");
