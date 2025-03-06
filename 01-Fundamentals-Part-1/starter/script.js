@@ -160,16 +160,49 @@ console.log(now - 1991 > now - 2025);*/
 // }
 
 //Bonus 1 
-const scoreDolphins = (97 + 112 + 80) / 3;
-const scoreKoalas = (109 + 95 + 50) /3;
+// const scoreDolphins = (97 + 112 + 80) / 3;
+// const scoreKoalas = (109 + 95 + 50) /3;
 
-if (scoreDolphins > scoreKoalas && scoreDolphins >= 100){
-    console.log("The Dolphins win! 🐬");
-}else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100){
-    console.log("The Koalas win! 🐨")
-}else if(scoreDolphins >= 100 && scoreKoalas >= 100){
-    console.log("Both win the trophy! 🏆");
-}
-else{
-    console.log("Nobody wins... Womp womp 😭" );
-}
+// if (scoreDolphins > scoreKoalas && scoreDolphins >= 100){
+//     console.log("The Dolphins win! 🐬");
+// }else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100){
+//     console.log("The Koalas win! 🐨")
+// }else if(scoreDolphins >= 100 && scoreKoalas >= 100){
+//     console.log("Both win the trophy! 🏆");
+// }
+// else{
+//     console.log("Nobody wins... Womp womp 😭" );
+// }
+
+// const day = "friday";
+
+// switch(day){
+//     case "monday":
+//         console.log("Today is monday");
+//     break;
+//     case "wednesday":
+//     case "thursday":
+//         console.log("Code");
+//     break;
+//     case "friday":
+//         console.log("prepare for weekend");
+//     break;
+//     default:
+//         console.log("Not a valid day");
+//     break;
+// }
+// if (day === "monday"){
+//     console.log("Today is monday");
+// }
+// else if (day === "tuesday"){
+//     console.log("Its tuesday my dudes");
+// }
+// else if (day === "wednesday" || day === "thursday"){
+//     console.log("Code");
+// }
+// else if (day === "friday"){
+//     console.log("Prepare for the weekend");
+// }
+// else{
+//     console.log("That is not a day")
+// }
