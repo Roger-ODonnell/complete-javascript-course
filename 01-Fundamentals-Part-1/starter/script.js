@@ -266,3 +266,5 @@ console.log(now - 1991 > now - 2025);*/
 // const tip = value >= 50 && value <= 300 ? 15 : 20;
 
 // console.log(value, tip,value += (value * tip/100));
+
+
