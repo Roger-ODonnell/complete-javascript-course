@@ -218,11 +218,7 @@ const bills = [125, 555, 44];
 
 const tips = [tipCal(bills[0]), tipCal(bills[1]), tipCal(bills[2])];
 
-const totals = [
-  tipCal(bills[0]) + bills[0],
-  tipCal(bills[1]) + bills[1],
-  tipCal(bills[2]) + bills[2],
-];
+const totals = [tips[0] + bills[0], tips[1] + bills[1], tips[2] + bills[2]];
 
 console.log(bills);
 console.log(totals);
