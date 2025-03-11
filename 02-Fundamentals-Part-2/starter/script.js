@@ -210,15 +210,27 @@ function log(log) {
 
 // TEST DATA: 125, 555, and 44.
 
-const tipCal = (bill) => {
-  return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// const tipCal = (bill) => {
+//   return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// };
+
+// const bills = [125, 555, 44];
+
+// const tips = [tipCal(bills[0]), tipCal(bills[1]), tipCal(bills[2])];
+
+// const totals = [tips[0] + bills[0], tips[1] + bills[1], tips[2] + bills[2]];
+
+// console.log(bills);
+// console.log(totals);
+
+//Object litteral syntax
+const roger = {
+  firstName: "Roger",
+  lastName: "ODonnell",
+  age: 2037 - 2003,
+  job: "IT",
+  friends: ["Michael", "Steven", "Peter"],
 };
 
-const bills = [125, 555, 44];
-
-const tips = [tipCal(bills[0]), tipCal(bills[1]), tipCal(bills[2])];
-
-const totals = [tips[0] + bills[0], tips[1] + bills[1], tips[2] + bills[2]];
-
-console.log(bills);
-console.log(totals);
+console.log(roger.lastName);
+console.log(roger.age);
