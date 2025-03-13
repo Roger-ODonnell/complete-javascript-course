@@ -223,14 +223,44 @@ function log(log) {
 // console.log(bills);
 // console.log(totals);
 
-//Object litteral syntax
+// Object litteral syntax
 const roger = {
   firstName: "Roger",
   lastName: "ODonnell",
-  age: 2037 - 2003,
+  age: 2025 - 2003,
   job: "IT",
   friends: ["Michael", "Steven", "Peter"],
 };
 
+console.log(roger);
 console.log(roger.lastName);
-console.log(roger.age);
+console.log(roger["lastName"]);
+
+const nameKey = "Name";
+console.log(roger["first" + nameKey]);
+console.log(roger["last" + nameKey]);
+
+// const interestedIn = prompt(
+//   "What do you want to know about Roger?, Choose between firstName, lastName, age, job, friends"
+// );
+
+// if (roger[interestedIn]) {
+//   console.log(roger[interestedIn]);
+// } else {
+//   prompt(
+//     "Incorrect option: reselect from the following,Choose between firstName, lastName, age, job, friends"
+//   );
+// }
+
+roger.location = "Ireland";
+roger["codú"] = "codu rocks!";
+
+console.log(roger.codú);
+console.log(roger);
+
+//Challenge
+//Roger has 3 friends and his best friend is called michael
+
+console.log(
+  `${roger.firstName} has ${roger.friends.length} friends and his best friend is called ${roger.friends[0]}.`
+);
