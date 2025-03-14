@@ -355,3 +355,47 @@ function log(log) {
 // } else {
 //   console.log("BMI'S are the same");
 // }
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log(`Lifting weights repition ${[i]} 🏋️‍♂️`);
+// }
+
+// const rogerArray = [
+//   "Roger",
+//   "Odonnell",
+//   2037 - 2003,
+//   "IT",
+//   ["Michael", "Peter", "Steven"],
+// ];
+
+// const types = [];
+
+// for (let i = 0; i <= rogerArray.length; i++) {
+//   console.log(rogerArray[i]);
+
+//   // types[i] = typeof rogerArray[i];
+
+//   types.push(typeof rogerArray[i]);
+// }
+// console.log(types);
+
+// const years = [1991, 2007, 1969, 2020];
+// const ages = [];
+
+// for (let i = 0; i < years.length; i++) {
+//   ages.push(2037 - years[i]);
+// }
+
+// console.log(ages);
+
+// console.log(" --- Only strings! ---");
+// for (let i = 0; i <= rogerArray.length; i++) {
+//   if (typeof rogerArray[i] !== "string") continue;
+//   console.log(rogerArray[i]);
+// }
+
+// console.log(" --- Only numbers! ---");
+// for (let i = 0; i <= rogerArray.length; i++) {
+//   if (typeof rogerArray[i] === "number") break;
+//   console.log(rogerArray[i]);
+// }
