@@ -399,3 +399,17 @@ function log(log) {
 //   if (typeof rogerArray[i] === "number") break;
 //   console.log(rogerArray[i]);
 // }
+
+
+const roger = [
+    'roger',
+    'odonnell',
+    2037 - 2003,
+    'it',
+    ['michael', 'peter', 'steven'],
+    true
+];
+
+for(let i = roger.length - 1; i >= 0; i--){
+    console.log(i, roger[i]);
+}
