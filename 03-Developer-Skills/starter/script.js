@@ -110,14 +110,32 @@
 // //A) IDENTIFY
 // console.log(amplitudeBug);
 
-const printForcast = function (arr) {
-  let str = '';
-  for (let i = 0; i < arr.length; i++) {
-    str = str + `... ${arr[i]}C ... in ${i + 1} days`;
-  }
+// const printForcast = function (arr) {
+//   let str = '';
+//   for (let i = 0; i < arr.length; i++) {
+//     str = str + `... ${arr[i]}C ... in ${i + 1} days`;
+//   }
 
-  return str;
-};
+//   return str;
+// };
 
-const testData = [17, 21, 23];
-console.log(printForcast(testData));
+// const testData = [17, 21, 23];
+// console.log(printForcast(testData));
+
+// const NewEmployee = {
+//   id: 1,
+//   name: 'Roger',
+//   lastName: 'ODonnell',
+//   birthYear: 2003,
+//   age: 0,
+//   job: 'It/Analytics',
+
+//   calcAge: function calAge() {
+//     this.age = 2025 - this.birthYear;
+//   },
+// };
+
+// console.log(NewEmployee.age);
+// NewEmployee.calcAge();
+// console.log(NewEmployee.name);
+// console.log(NewEmployee.age);
