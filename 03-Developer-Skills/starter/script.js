@@ -11,29 +11,29 @@
 // - Find min value in temp array
 // - subtract min from max (amplitude) and return it
 
-const temperatures = [3, -2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5];
+// const temperatures = [3, -2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5];
 
-const calcTempAmplitude = function (temps) {
-  let max = temps[0];
-  let min = temps[0];
+// const calcTempAmplitude = function (temps) {
+//   let max = temps[0];
+//   let min = temps[0];
 
-  for (let i = 0; i < temps.length; i++) {
-    const curTemp = temps[i];
-    if (typeof curTemp !== 'number') continue;
+//   for (let i = 0; i < temps.length; i++) {
+//     const curTemp = temps[i];
+//     if (typeof curTemp !== 'number') continue;
 
-    if (curTemp > max) {
-      max = curTemp;
-    }
-    if (curTemp < min) {
-      min = curTemp;
-    }
-  }
-  console.log(min, max);
-  return max - min;
-};
+//     if (curTemp > max) {
+//       max = curTemp;
+//     }
+//     if (curTemp < min) {
+//       min = curTemp;
+//     }
+//   }
+//   console.log(min, max);
+//   return max - min;
+// };
 
-const amplitude = calcTempAmplitude(temperatures);
-console.log(amplitude);
+// const amplitude = calcTempAmplitude(temperatures);
+// console.log(amplitude);
 
 //Problem 2
 //function should now recieve 2 arrays of temperatures
@@ -109,3 +109,15 @@ console.log(amplitude);
 
 // //A) IDENTIFY
 // console.log(amplitudeBug);
+
+const printForcast = function (arr) {
+  let str = '';
+  for (let i = 0; i < arr.length; i++) {
+    str = str + `... ${arr[i]}C ... in ${i + 1} days`;
+  }
+
+  return str;
+};
+
+const testData = [17, 21, 23];
+console.log(printForcast(testData));
